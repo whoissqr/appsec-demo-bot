@@ -67,9 +67,9 @@ def fetch_releases(oauth_token):
     after_cursor = None
 
     while has_next_page:
+        print('token: ' + oauth_token)
         data = client.execute(
             query=make_query(after_cursor),
-            print(repos)
             headers={"Authorization": "Bearer {}".format(oauth_token)},
         )
         print()
