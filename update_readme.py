@@ -174,5 +174,5 @@ if __name__ == "__main__":
     print("entries_md === " + entries_md)
 
     readme.open("w").write(rewritten)
-    
+    print("rewritten === " + rewritten)
     
