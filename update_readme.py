@@ -67,7 +67,6 @@ def fetch_releases(oauth_token):
     after_cursor = None
 
     while has_next_page:
-        print('token: ' + oauth_token)
         data = client.execute(
             query=make_query(after_cursor),
             headers={"Authorization": "Bearer {}".format(oauth_token)},
@@ -126,7 +125,6 @@ def fetch_blog_entries():
 if __name__ == "__main__":
     readme = root / "README.md"
     project_releases = root / "releases.md"
-    print(">>>>> " + TOKEN)
     releases = fetch_releases(TOKEN)
     releases.sort(key=lambda r: r["published_at"], reverse=True)
     md = "\n".join(
@@ -156,6 +154,8 @@ if __name__ == "__main__":
         project_releases_content, "release_count", str(len(releases)), inline=True
     )
     project_releases.open("w").write(project_releases_content)
+    
+    print("project_releases_content === " + project_releases_content)
 
     doubans = fetch_douban()[:5]
 
@@ -164,12 +164,14 @@ if __name__ == "__main__":
     )
 
     rewritten = replace_chunk(rewritten, "douban", doubans_md)
+    print("doubans_md === " + doubans_md)
 
     entries = fetch_blog_entries()[:5]
     entries_md = "\n".join(
         ["* <a href='{url}' target='_blank'>{title}</a> - {published}".format(**entry) for entry in entries]
     )
     rewritten = replace_chunk(rewritten, "blog", entries_md)
+    print("entries_md === " + entries_md)
 
     readme.open("w").write(rewritten)
     
