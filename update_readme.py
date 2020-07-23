@@ -98,14 +98,8 @@ def fetch_releases(oauth_token):
         after_cursor = data["data"]["viewer"]["repositories"]["pageInfo"]["endCursor"]
     return releases
 
-
-def fetch_code_time():
-    return httpx.get(
-        "https://gist.githubusercontent.com/tw93/7854aac61f991ef4e7ae7b8440e4fdc6/raw/"
-    )
-
 def fetch_douban():
-    entries = feedparser.parse("https://www.douban.com/feed/people/tangwei93/interests")["entries"]
+    entries = feedparser.parse("https://www.douban.com/feed/people/kkshichao/interests")["entries"]
     return [
         {
             "title": item["title"],
@@ -117,7 +111,7 @@ def fetch_douban():
 
 
 def fetch_blog_entries():
-    entries = feedparser.parse("https://tw93.github.io/feed.xml")["entries"]
+    entries = feedparser.parse("http://kkshichao.blogspot.com/feed.xml")["entries"]
     return [
         {
             "title": entry["title"],
@@ -160,10 +154,6 @@ if __name__ == "__main__":
         project_releases_content, "release_count", str(len(releases)), inline=True
     )
     project_releases.open("w").write(project_releases_content)
-
-    code_time_text = "\n```text\n"+fetch_code_time().text+"\n```\n"
-
-    rewritten = replace_chunk(rewritten, "code_time", code_time_text)
 
     doubans = fetch_douban()[:5]
 
