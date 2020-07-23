@@ -44,7 +44,7 @@ Git                 9 mins  ███░░░░░░░░░░░░░░�
 </td>
 <td valign="top" width="50%">
 
-#### 🤾‍♂️ <a href="https://www.douban.com/people/tangwei93/" target="_blank">Funny Soul</a>
+#### 🤾‍♂️ <a href="https://www.douban.com/people/kkshichao/" target="_blank">Funny Soul</a>
 
 <!-- douban starts -->
 * <a href='http://movie.douban.com/subject/1397546/' target='_blank'>想看追随</a> - 2020-06-14
