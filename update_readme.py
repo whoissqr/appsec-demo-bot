@@ -135,8 +135,7 @@ if __name__ == "__main__":
             for release in releases[:8]
         ]
     )
-    readme_contents = readme.open().read()
-    rewritten = replace_chunk(readme_contents, "recent_releases", md)
+
     
     project_releases_md = "\n".join(
         [
@@ -178,6 +177,8 @@ if __name__ == "__main__":
 
     # write out to file README.md
     readme = root / "README.md"
+    readme_contents = readme.open().read()
+    rewritten = replace_chunk(readme_contents, "recent_releases", md)
     readme.open("w").write(rewritten)
     print("rewritten === " + rewritten)
     
