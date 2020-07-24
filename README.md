@@ -6,7 +6,7 @@
 <tr>
 <td valign="top" width="50%">
 
-#### 🏋️‍♀️ <a href="https://github.com/tw93/tw93/blob/main/releases.md" target="_blank">Product Releases</a>
+#### 🏋️‍♀️ <a href="https://github.com/whoissqr/appsec-demo-bot/blob/master/releases.md" target="_blank">Product Releases</a>
 
 <!-- recent_releases starts -->
 
