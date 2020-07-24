@@ -124,7 +124,8 @@ def fetch_blog_entries():
 
 
 if __name__ == "__main__":
-    readme = root / "README.md"
+    
+    # Write out to releases.md file
     project_releases = root / "releases.md"
     releases = fetch_releases(TOKEN)
     releases.sort(key=lambda r: r["published_at"], reverse=True)
@@ -136,8 +137,7 @@ if __name__ == "__main__":
     )
     readme_contents = readme.open().read()
     rewritten = replace_chunk(readme_contents, "recent_releases", md)
-
-    # Write out full project-releases.md file
+    
     project_releases_md = "\n".join(
         [
             (
@@ -157,7 +157,8 @@ if __name__ == "__main__":
     project_releases.open("w").write(project_releases_content)
     
     print("project_releases_content === " + project_releases_content)
-
+  
+    # update from my douban blog: want to read, etc.
     doubans = fetch_douban()[:5]
 
     doubans_md = "\n".join(
@@ -167,6 +168,7 @@ if __name__ == "__main__":
     rewritten = replace_chunk(rewritten, "douban", doubans_md)
     print("doubans_md === " + doubans_md)
 
+    # update from my blogspot:
     entries = fetch_blog_entries()[:5]
     entries_md = "\n".join(
         ["* <a href='{url}' target='_blank'>{title}</a> - {published}".format(**entry) for entry in entries]
@@ -174,6 +176,8 @@ if __name__ == "__main__":
     rewritten = replace_chunk(rewritten, "blog", entries_md)
     print("entries_md === " + entries_md)
 
+    # write out to file README.md
+    readme = root / "README.md"
     readme.open("w").write(rewritten)
     print("rewritten === " + rewritten)
     
