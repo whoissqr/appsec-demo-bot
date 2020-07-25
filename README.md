@@ -56,22 +56,26 @@ JavaScript          0 secs  ███░░░░░░░░░░░░░░�
   </table>
 
 <!-- fake commit 1 -->
-<section id="blog" class="blog">
-  <div class="blog__header">
-    <p class="blog__header1">some of my</p>
-    <h2 class="blog__header2">Medium
-      <span class="blog__header2Span">posts</span>
-    </h2>
-  </div>
-  <ul class="blog__slider">
+<pre id="html" class="code-box" aria-labeledby="html-editor-title">
+              <code>
+                &lt;section id=&quot;blog&quot; class=&quot;blog&quot;&gt;
+  &lt;div class=&quot;blog__header&quot;&gt;
+    &lt;p class=&quot;blog__header1&quot;&gt;some of my&lt;/p&gt;
+    &lt;h2 class=&quot;blog__header2&quot;&gt;Medium
+      &lt;span class=&quot;blog__header2Span&quot;&gt;posts&lt;/span&gt;
+    &lt;/h2&gt;
+  &lt;/div&gt;
+  &lt;ul class=&quot;blog__slider&quot;&gt;
     Posts go here
-  </ul>
-  <ul class="blog__counter">
-    <li class="blog__counterItem blog__counterItem-active"></li>
-    <li class="blog__counterItem"></li>
-    <li class="blog__counterItem"></li>
-  </ul>
-</section>
+  &lt;/ul&gt;
+  &lt;ul class=&quot;blog__counter&quot;&gt;
+    &lt;li class=&quot;blog__counterItem blog__counterItem-active&quot;&gt;&lt;/li&gt;
+    &lt;li class=&quot;blog__counterItem&quot;&gt;&lt;/li&gt;
+    &lt;li class=&quot;blog__counterItem&quot;&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/section&gt;
+              </code>
+            </pre>
 
 <div class="code-wrap">
 <pre id="css" class="code-box" aria-labeledby="css-editor-title">
