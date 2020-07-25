@@ -56,4 +56,20 @@ JavaScript          0 secs  ███░░░░░░░░░░░░░░�
   </table>
 
 <!-- fake commit 1 -->
+<section id="blog" class="blog">
+  <div class="blog__header">
+    <p class="blog__header1">some of my</p>
+    <h2 class="blog__header2">Medium
+      <span class="blog__header2Span">posts</span>
+    </h2>
+  </div>
+  <ul class="blog__slider">
+    Posts go here
+  </ul>
+  <ul class="blog__counter">
+    <li class="blog__counterItem blog__counterItem-active"></li>
+    <li class="blog__counterItem"></li>
+    <li class="blog__counterItem"></li>
+  </ul>
+</section>
 
