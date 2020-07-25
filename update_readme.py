@@ -99,6 +99,11 @@ def fetch_releases(oauth_token):
         after_cursor = data["data"]["viewer"]["repositories"]["pageInfo"]["endCursor"]
     return releases
 
+def fetch_code_time():
+    return httpx.get(
+        "https://gist.githubusercontent.com/whoissqr/45929d16ece946e3d25fb40c4878e112/raw/"
+    )
+
 def fetch_douban():
     entries = feedparser.parse("https://www.douban.com/feed/people/kkshichao/interests")["entries"]
     return [
