@@ -31,12 +31,9 @@
 <!-- code_time starts -->
 
 ```text
-Markdown     6 hrs 21 mins  █████████████▒░░░░░░  53.3%
-Python       2 hrs 29 mins  ███████░░░░░░░░░░░░░  20.9%
-YAML                  1 hr  ████▓░░░░░░░░░░░░░░░   8.4%
-TypeScript         53 mins  ████▒░░░░░░░░░░░░░░░   7.5%
-JSON               47 mins  ████░░░░░░░░░░░░░░░░   6.6%
-Git                 9 mins  ███░░░░░░░░░░░░░░░░░   1.3%
+Python             24 mins  █████████████████▓░░  73.4%
+Markdown            8 mins  ████████░░░░░░░░░░░░  25.1%
+JavaScript          0 secs  ███░░░░░░░░░░░░░░░░░   1.5%
 ```
 
 <!-- code_time ends -->
