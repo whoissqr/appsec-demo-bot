@@ -161,10 +161,13 @@ if __name__ == "__main__":
     readme = root / "README.md"
     readme_contents = readme.open().read()
     rewritten = replace_chunk(readme_contents, "recent_releases", md)
+    
+    # update wakatime stats from my gist
+    code_time_text = "\n```text\n"+fetch_code_time().text+"\n```\n"
+    rewritten = replace_chunk(rewritten, "code_time", code_time_text)
 
     # update from my douban blog: want to read, etc.
     doubans = fetch_douban()[:5]
-
     doubans_md = "\n".join(
         ["* <a href='{url}' target='_blank'>{title}</a> - {published}".format(**item) for item in doubans]
     )
