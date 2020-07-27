@@ -31,9 +31,10 @@
 <!-- code_time starts -->
 
 ```text
-Python             27 mins  ██████████████████░░  75.2%
-Markdown            8 mins  ███████▓░░░░░░░░░░░░  23.4%
-JavaScript          0 secs  ███░░░░░░░░░░░░░░░░░   1.4%
+HTML         2 hrs 50 mins  ██████████████████░░  75.4%
+Python             28 mins  █████▒░░░░░░░░░░░░░░  12.7%
+Markdown           26 mins  █████░░░░░░░░░░░░░░░  11.6%
+JavaScript          0 secs  ███░░░░░░░░░░░░░░░░░   0.2%
 ```
 
 <!-- code_time ends -->
