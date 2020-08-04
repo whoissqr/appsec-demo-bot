@@ -31,12 +31,12 @@
 <!-- code_time starts -->
 
 ```text
-Python       7 hrs 15 mins  ███████████████████▒  81.7%
-YAML          1 hr 15 mins  █████▓░░░░░░░░░░░░░░  14.2%
-JSON                9 mins  ███▒░░░░░░░░░░░░░░░░   1.9%
-Text                9 mins  ███▒░░░░░░░░░░░░░░░░   1.8%
-Git Config           1 min  ███░░░░░░░░░░░░░░░░░   0.3%
-Markdown             1 min  ███░░░░░░░░░░░░░░░░░   0.2%
+Python       9 hrs 21 mins  ███████████████████▒  82.6%
+YAML          1 hr 29 mins  █████▒░░░░░░░░░░░░░░  13.2%
+JSON                9 mins  ███░░░░░░░░░░░░░░░░░   1.5%
+Text                9 mins  ███░░░░░░░░░░░░░░░░░   1.5%
+Git Config          6 mins  ███░░░░░░░░░░░░░░░░░   0.9%
+Markdown            2 mins  ███░░░░░░░░░░░░░░░░░   0.3%
 ```
 
 <!-- code_time ends -->
