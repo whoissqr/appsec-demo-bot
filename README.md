@@ -31,8 +31,7 @@
 <!-- code_time starts -->
 
 ```text
-YAML          1 hr 10 mins  ███████████████░░░░░  61.1%
-Python             45 mins  ██████████▓░░░░░░░░░  38.9%
+404: Not Found
 ```
 
 <!-- code_time ends -->
