@@ -31,7 +31,9 @@
 <!-- code_time starts -->
 
 ```text
-404: Not Found
+YAML               19 mins  ██████████████████▒░  78.3%
+Python              5 mins  ███████░░░░░░░░░░░░░  21.6%
+Other               0 secs  ███░░░░░░░░░░░░░░░░░   0.0%
 ```
 
 <!-- code_time ends -->
