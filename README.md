@@ -31,9 +31,7 @@
 <!-- code_time starts -->
 
 ```text
-YAML               19 mins  ██████████████████▒░  78.3%
-Python              5 mins  ███████░░░░░░░░░░░░░  21.6%
-Other               0 secs  ███░░░░░░░░░░░░░░░░░   0.0%
+404: Not Found
 ```
 
 <!-- code_time ends -->
@@ -44,11 +42,11 @@ Other               0 secs  ███░░░░░░░░░░░░░░�
 #### 🤾‍♂️ <a href="https://www.douban.com/people/kkshichao/" target="_blank">Funny Soul</a>
 
 <!-- douban starts -->
+* <a href='http://movie.douban.com/subject/33400376/' target='_blank'>看过平原上的夏洛克</a> - 2020-09-08
 * <a href='http://movie.douban.com/subject/1397546/' target='_blank'>想看追随</a> - 2020-06-14
 * <a href='http://movie.douban.com/subject/30334073/' target='_blank'>想看调音师</a> - 2020-06-14
 * <a href='http://movie.douban.com/subject/4072712/' target='_blank'>看过天涯同命鸟</a> - 2020-06-14
 * <a href='http://movie.douban.com/subject/3077668/' target='_blank'>想看天水围的日与夜</a> - 2020-06-14
-* <a href='http://movie.douban.com/subject/1306470/' target='_blank'>看过生死谍变</a> - 2020-02-28
 <!-- douban ends -->
 
 </td>
