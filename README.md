@@ -31,8 +31,7 @@
 <!-- code_time starts -->
 
 ```text
-Python        1 hr 23 mins  ██████████████████▓░  78.5%
-JSON               22 mins  ███████░░░░░░░░░░░░░  21.5%
+404: Not Found
 ```
 
 <!-- code_time ends -->
